@@ -20,12 +20,16 @@
             background: #222;
             padding: 10px;
             text-align: center;
+            display: flex; /* Add flex display */
+            justify-content: center; /* Center the items horizontally */
+            list-style-type: none; /* Remove the default list style */
         }
 
         .navbar a {
             color: #fff;
             text-decoration: none;
             margin: 0 10px;
+            padding-bottom: 5px; /* Remove the underscore by adding padding */
         }
 
         .content {
@@ -34,9 +38,26 @@
         }
 
         .matrix-background {
-            background-image: url('matrix.jpg');
+            background-image: url('https://media.giphy.com/media/sULKEgDMX8LcI/giphy.gif');
             background-size: cover;
             background-repeat: no-repeat;
+        }
+
+        .content ul {
+            display: flex; /* Arrange items horizontally */
+            justify-content: center; /* Center the items horizontally */
+            flex-wrap: wrap; /* Allow wrapping to multiple lines */
+            padding: 0; /* Remove default padding */
+        }
+
+        .content ul li {
+            margin: 5px; /* Add some spacing between items */
+            list-style-type: none; /* Remove the default list style */
+        }
+
+        .content ul li a {
+            color: #fff; /* Set the color to white */
+            text-decoration: none;
         }
     </style>
 </head>
@@ -51,22 +72,32 @@
     </nav>
 
     <div class="content matrix-background" id="home">
-        <h2>Xonix0r - Hacker and Pentester from Romania</h2>
-        <p>Xonix0r is a skilled hacker and pentester from Romania proficient in Golang, Python, C/C++, BASH, and more.</p>
+        <h2>Xonix0r - Romanian Hacker and Pentester</h2>
     </div>
 
     <div class="content" id="blog">
         <h2>Blog</h2>
         <ul>
-            <li><a href="#linux">Linux</a></li>
-            <li><a href="#networking">Networking</a></li>
-            <li><a href="#pentesting">Pentesting</a></li>
-            <li><a href="#python">Python</a></li>
-            <li><a href="#golang">Golang</a></li>
-            <li><a href="#c">C/C++</a></li>
-            <li><a href="#bash">BASH</a></li>
-            <li><a href="#cryptography">Cryptography</a></li>
+            <li><a href="#linux">Linux</a></li>            
+            <li><a href="#networking">Networking</a></li>            
+            <li><a href="#pentesting">Pentesting</a></li>            
+            <li><a href="#python">Python</a></li>            
+            <li><a href="#golang">Golang</a></li>            
+            <li><a href="#c">C/C++</a></li>            
+            <li><a href="#bash">BASH</a></li>            
+            <li><a href="#projects/hacks">Projects/hacks</a><li>            
+            <li><a href="#cryptography">Cryptography</a></li>            
+            <li><a href="#Math">Math</a></li>            
+            <li><a href="#Philosophy">Philosophy</a></li>            
+            <li><a href="#Deutsch">Deutsch</a></li>            
+            <li><a href="#русский">русский</a></li>            
+            <li><a href="#economics">economics</a></li>           
+            <li><a href="#aerospace">aerospace</a></li>          
+            <li><a href="#physics">physics</a></li>
         </ul>
     </div>
 </body>
 </html>
+
+
+
